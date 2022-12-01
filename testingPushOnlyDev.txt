@@ -1,1 +1,5 @@
 #that
+"appId": "157b0531-1935-4066-9368-ec6c6d8c8e7e",
+  "displayName": "azure-cli-2022-12-01-14-41-57",
+  "password": "Quu8Q~cC7DJn~7JWAnw5pm1V0rIm1BK6RhhOSdlM",
+  "tenant": "ff5a6044-ffb8-488b-b31b-b039ef5df0d7"
