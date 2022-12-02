@@ -1,1 +1,30 @@
 #only testing a new branch
+Para estudiar Terraform cert
+https://developer.hashicorp.com/terraform/tutorials/azure-get-started/azure-build
+
+
+#Azure CLI
+az login --tenant b1216cae-dd3f-4b38-a386-8ecfbe5cc07a (Auto Approve Dev tenant)
+az account set --subscription 35akss-subscription-id
+
+#Terraform
+Terraform init #init backend
+
+terraform fmt #format and validate the config
+
+terraform validate #Syntactically validate and internally consistent
+
+terraform apply #apply your config, this can be abbort. It will ask you confirmation
+
+terraform show #Muestra que hace
+
+terraform state list #to get the updated list of resources managed in your workspace
+
+terraform state #To see the commands, like List, MV, PULL, PUSH, RM, show
+
+terraform destroy #terminate resources, the opposite of "terraform apply"
+
+terraform apply -var "resource_group_name=rg-rodrigo-testing-terraform"
+
+terraform output resource_group_id #muestra la variable despeus de output
+
